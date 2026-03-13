@@ -1,0 +1,36 @@
+INHERIT: tpl/cfg/mkdocs_base.yml
+
+docs_dir: src/zh
+site_dir: site
+
+site_name: ECOS创芯
+site_url: !ENV READTHEDOCS_CANONICAL_URL
+
+edit_uri: edit/main/doc/src/zh
+
+repo_url: https://github.com/openecos-projects/chipcreative-doc
+repo_name: openecos-projects/chipcreative-doc
+
+theme:
+  palette:
+  - scheme: default
+    primary: deep orange
+    accent: deep orange
+    toggle:
+      icon: material/brightness-7
+      name: 切换到深色模式
+  - scheme: slate
+    primary: deep orange
+    accent: deep orange
+    toggle:
+      icon: material/brightness-4
+      name: 切换到浅色模式
+  language: zh
+
+extra:
+  alternate:
+
+nav:
+  - 项目主页: index.md
+  - 创芯论坛: page/forum/index.md
+  - 创芯杂志: page/magazine/index.md
