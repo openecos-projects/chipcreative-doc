@@ -31,7 +31,7 @@ extra:
   alternate:
 
 nav:
-  - 项目主页: index.md
+  - 社区主页: index.md
   - 创芯论坛:
     - page/forum/index.md
     - 2025（第二届）: page/forum/2025.md
