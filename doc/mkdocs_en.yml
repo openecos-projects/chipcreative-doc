@@ -32,3 +32,8 @@ extra:
 
 nav:
   - Home: index.md
+  - CC Forum:
+    - page/forum/index.md
+    - 2025: page/forum/2025.md
+    - 2024: page/forum/2024.md
+  - CC Magazine: page/magazine/index.md
